@@ -1,0 +1,12 @@
+﻿.InfoTable{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+}
+.InfoTable:nth-child(even){
+    background-color: #f2f2f2;
+}
+.PrintAllInfoPageContent{
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+﻿@using Blazored.LocalStorage;
+@using SharedProject.cs;
+@using Client.Pages;
+@inject ILocalStorageService localStorage;
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">ShelterBooking</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-account-login" aria-hidden="true"></span> Login
+            </NavLink>
+        </div>
+        @*<div class="nav-item px-3">
+            <NavLink class="nav-link" href="PrintAllInfo">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> PrintAllInfo
+            </NavLink>
+        </div>*@
+        @if (isAdmin)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="userList">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> UserList
+                </NavLink>
+            </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="shelterBookingList">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> BookingList
+            </NavLink>
+        </div>
+        }
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="booking">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Book <img src="images/shelterbillederazor.png" id="shelterbillede" alt="shelterbillede" b-6pkfmf0gio="" width="80px">
+            </NavLink>
+            </div>
+
+    </nav>
+</div>
+
+@code {
+
+}

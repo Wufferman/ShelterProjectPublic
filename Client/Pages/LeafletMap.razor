@@ -1,0 +1,26 @@
+﻿@using Microsoft.JSInterop
+@inject IJSRuntime JSRuntime
+
+<div @ref="mapContainer" style="width:100%; height:500px;"></div>
+
+@code {
+    [Parameter] public List<Coordinate> Coordinates { get; set; }
+    [Parameter] public Coordinate Center { get; set; } = new Coordinate { Lat = -34.397, Lng = 150.644 };
+    [Parameter] public int Zoom { get; set; } = 8;
+
+    private ElementReference mapContainer;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initLeafletMap", mapContainer, Coordinates, Center, Zoom);
+        }
+    }
+
+    public class Coordinate
+    {
+        public double Lat { get; set; }
+        public double Lng { get; set; }
+    }
+}

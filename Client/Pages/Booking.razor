@@ -1,0 +1,16 @@
+﻿@page "/booking"
+@using Client.Pages;
+@inject NavigationManager NavManager
+@if(LoginPage.IsLoggedIn){
+
+<h3>Booking</h3>
+
+    <KommuneSelection></KommuneSelection>
+}
+else
+{
+    NavManager.NavigateTo("/loginPage");
+}
+@code {
+
+}

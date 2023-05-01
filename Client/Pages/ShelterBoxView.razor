@@ -1,0 +1,48 @@
+﻿@inject HttpClient Http;
+@using SharedProject.cs;
+@inject NavigationManager NavigationManager;
+@foreach (Shelter shelter in Shelters)
+{
+    @if (shelter.statuskode == 3)
+    {
+        <div class="shelter">
+            <div class="shelterInfo">
+                <h3>@shelter.navn</h3>
+                <p>Beskrivelse: @(
+            (MarkupString)shelter.lang_beskr
+            )</p>
+                <p title="@shelter.lang_beskr">@(
+            (MarkupString)@shelter.beskrivels)</p>
+                <p>@shelter.kontak_ved</p>
+                <p>@shelter.handicap</p>
+                <p>Størrelse (Antal folk): @shelter.antal_pl</p>
+                <p>
+                    @if (IsValidUrl(shelter.link))
+                    {
+                        <a href="@shelter.link" target="_blank">@shelter.link</a>
+                    }
+                </p>
+                <center>
+                <iframe class="googleMaps"
+                        width="450"
+                        height="250"
+                        frameborder="0" style="border:0"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed/v1/view?key=AIzaSyDMzfxEyfKbFzWSlw990X0w0M6vrSBpqCk&center=@getCoords(shelter.coordinates)&zoom=15&maptype=satellite"
+                        allowfullscreen>
+                </iframe>
+                <p class="coordinates">Koordinater: @getCoords(shelter.coordinates)</p>
+                </center>
+                <div class="buttonDiv">
+                    <a class="button-3" href="https://localhost:7188/shelterBookingForm/@shelter.objekt_id">Book</a>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+@code {
+
+
+}

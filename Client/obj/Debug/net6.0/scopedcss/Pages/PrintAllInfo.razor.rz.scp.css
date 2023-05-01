@@ -1,0 +1,12 @@
+.InfoTable[b-xhzvg3xys0]{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+}
+.InfoTable:nth-child(even)[b-xhzvg3xys0]{
+    background-color: #f2f2f2;
+}
+.PrintAllInfoPageContent[b-xhzvg3xys0]{
+    text-align: center;
+}

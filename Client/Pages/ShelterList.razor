@@ -1,0 +1,43 @@
+﻿@page "/shelterList"
+@page "/shelterList/{kommuneid:int}"
+@inject HttpClient Http;
+@using SharedProject.cs;
+
+<PageTitle>Shelterlist</PageTitle>
+<a href="/booking">Gå tilbage</a>
+
+
+<h3>ShelterList</h3>
+
+
+
+
+<button class="button-3" @onclick="(() => ChangeView())">Skift View</button>
+<br />
+<br />
+
+@if(Shelters == null){
+
+    <br />
+    <img src="images/Welat.gif" id="welatgif" alt="sheltergif" />
+    <p>Loading...</p>
+
+}else if (Shelters.Count == 0){
+
+    <p>Ingen shelters i kommunen</p>
+
+}else{
+
+@if(view == "boxView")
+{
+    <ShelterBoxView kid="@kommuneid" Shelters="@Shelters"></ShelterBoxView>
+}
+else
+{
+    <ShelterListView kid="@kommuneid" Shelters="@Shelters"></ShelterListView>
+}
+}
+
+@code {
+
+}

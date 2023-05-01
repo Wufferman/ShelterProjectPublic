@@ -1,0 +1,35 @@
+﻿@page "/userList"
+@inject HttpClient Http;
+
+<PageTitle>Userlist</PageTitle>
+
+<h3>UserList</h3>
+
+<table class="InfoTable">
+    <tr>
+        <th>UserID</th>
+        <th>Username</th>
+<th>Name</th>
+<th>Email</th>
+<th>Accounttype</th>
+<th>Phone</th>
+<th>Delete</th>
+
+    </tr>
+@foreach (var user in Users)
+{
+    <tr>
+        <td>@user.id</td>
+        <td>@user.username</td>
+        <td>@user.name</td>
+        <td>@user.email</td>
+        <td>@user.accounttype.Name</td>
+        <td>+@user.phoneAreaCode @user.phone</td>
+            <td><p class="button-4" @onclick="(() => deleteUser(user.id))">X</p></td>
+    </tr>
+}
+</table>
+
+@code {
+
+}

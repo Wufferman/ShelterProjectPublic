@@ -1,0 +1,126 @@
+﻿@page "/PrintAllInfo";
+@using SharedProject.cs;
+
+<div class="PrintAllInfoPageContent">
+    <h3 style="font-weight: bold;">PrintAllInfo</h3>
+    <div>
+        <h5>UserInfo</h5>
+        <table class="InfoTable">
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Name</th>
+                <th>AccountType</th>
+                <th>Phone</th>
+                <th>PhoneAreaCode</th>
+            </tr>
+            @foreach (Users user in userList)
+            {
+                <tr>
+                    <td>@user.username</td>
+                    <td>@user.email</td>
+                    <td>@user.name</td>
+                    <td>@user.accounttype.Accounttypeid - @user.accounttype.Name</td>
+                    <td>@user.phone</td>
+                    <td>@user.phoneAreaCode</td>
+                </tr>
+                
+            }
+        </table>
+        <h5>KommuneInfo</h5>
+        <table class="InfoTable">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>CreationDate</th>
+            </tr>
+            @foreach (Kommune kommune in kommuneList)
+            {
+                <tr>
+                    <td>@kommune.kommunekode</td>
+                    <td>@kommune.cvr_navn</td>
+                    @*<td>@kommune.Creationdate</td>*@
+                </tr>
+            }
+        </table>
+        <h5>AccountTypeInfo</h5>
+        <table class="InfoTable">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+            @foreach (Accounttypes accounttype in accounttypeList)
+             {
+                <tr>
+                    <td>@accounttype.Accounttypeid</td>
+                    <td>@accounttype.Name</td>
+                </tr>
+             }
+        </table>
+        <h5>Shelters</h5>
+        <table class="InfoTable">
+            <tr>
+                <th>Id</th>
+                <th>Statuskode</th>
+                <th>Status</th>
+                <th>Navn</th>
+                <th>Beskrivelse</th>
+                <th>Lang Beskrivelse</th>
+                <th>Kontakt Info</th>
+                <th>Handicap Venlig</th>
+                <th>Antal Pladser</th>
+                <th>Link</th>
+                <th>Koordinater</th>
+            </tr>
+            @foreach (Shelter shelter in shelterList)
+             {
+                <tr>
+                    <td>@shelter.objekt_id</td>
+                    @*<td>@shelter.objekt_id</td>
+                    <td>@shelter.Statuskode</td>
+                    <td>@shelter.Status</td>
+                    <td>@shelter.Navn</td>
+                    <td>@shelter.Beskrivels</td>
+                    <td>@shelter.Lang_beskr</td>
+                    <td>@shelter.Kontak_ved</td>
+                    <td>@shelter.Handicap</td>
+                    <td>@shelter.Antal_pl</td>
+                    <td>@shelter.Link</td>
+                    <td>@shelter.Coordinates</td>*@
+                   
+                </tr>
+             }
+
+        </table>
+        <h5>Bookings</h5>
+        <table class="InfoTable">
+            <tr>
+                <th>Shelter</th>
+                <th>Intention</th>
+                <th>Participants</th>
+                <th>User</th>
+                <th>StartTime</th>
+                <th>EndTime</th>
+                <th>BookingTime</th>
+            </tr>
+            @foreach (Shelterbooking booking in bookingList)
+             {
+                <tr>
+                    <td>@booking.Shelter.objekt_id</td>
+                    <td>@booking.Intention</td>
+                    <td>@booking.Participants</td>
+                    <td>@booking.User.name</td>
+                    <td>@booking.Starttime</td>
+                    <td>@booking.Endtime</td>
+                    <td>@booking.BookingTime</td>
+                </tr>
+             }
+        </table>
+    </div>
+
+</div>
+
+
+@code {
+
+}

@@ -1,0 +1,67 @@
+﻿@page "/shelterBookingForm"
+@page "/shelterBookingForm/{shelterId}"
+@inject HttpClient Http;
+@using Blazored.LocalStorage;
+@using SharedProject.cs
+@using Client.cs;
+@inject ILocalStorageService localStorage
+@inject NavigationManager NavManager
+<PageTitle>Bookingform</PageTitle>
+<a href="javascript:history.back()">Gå tilbage</a>
+<h3>ShelterBookingForm</h3>
+
+<h1 class="mb-3 mt-3">Add Booking</h1>
+<EditForm EditContext="@EditContext" class="row p-3" OnValidSubmit="@HandleValidSubmit"
+          OnInvalidSubmit="@HandleInvalidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div>
+        <p>@Booking.shelter.navn</p>
+        
+    </div>
+    <div>
+        <label for="User">User</label>
+        <p>@user.username</p>
+        @*<InputSelect id="User" @bind-Value="Booking.user.id" class="form-control">
+            @foreach (var type in UserList)
+            {
+                <option value="@type.id">@type.username</option>
+
+            }
+        </InputSelect>*@
+        <ValidationMessage For="@(() => Booking.User)" />
+    </div>
+    <div class="col-md-6 mb-3">
+        <label for="StartTime">Start Date</label>
+        <InputDate id="StartTime" @bind-Value="Booking.starttime" @onclick="(() => changeEndDate())" class="form-control" />
+        <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Booking.starttime)" />
+    </div>
+    <div class="col-md-6 mb-3">
+        <label for="EndTime">End Date</label>
+        <InputDate id="EndTime" @bind-Value="Booking.endtime" @onclick="(() => changeEndDate())" class="form-control" />
+        <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Booking.endtime)" />
+    </div>
+
+    
+    <div class="col-md-6 mb-3">
+        <label for="Price">Participants</label>
+        <InputNumber id="Price" min="0" max="99" @bind-Value="Booking.participants" class="form-control"
+                     DisplayName="Participants" />
+        <ValidationMessage For="@(() => Booking.participants)" />
+    </div>
+
+    <div class="col-md-12 mb-3">
+        <label for="Intention">Intention</label>
+        <InputTextArea id="Intention" @bind-Value="Booking.intention" class="form-control" />
+        <ValidationMessage For="@(() => Booking.intention)" />
+    </div>
+    <p class="errorCode">@errorCode</p>
+    <br />
+    <input type="submit" disabled="@isSubmitted" class="btn btn-primary" value="Save" />
+</EditForm>
+
+
+@code {
+
+
+}

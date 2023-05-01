@@ -1,0 +1,764 @@
+/* /Pages/KommuneSelection.razor.rz.scp.css */
+
+.button-3[b-zkix3veqwy] {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-3:focus:not(:focus-visible):not(.focus-visible)[b-zkix3veqwy] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-3:hover[b-zkix3veqwy] {
+        background-color: #2c974b;
+    }
+
+    .button-3:focus[b-zkix3veqwy] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-3:disabled[b-zkix3veqwy] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-3:active[b-zkix3veqwy] {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+
+    /* Input Select option CSS */
+
+
+.select-css[b-zkix3veqwy] {
+        display: block;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: #444;
+        line-height: 1.3;
+        padding: .6em 1.4em .5em .8em;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        border: 1px solid #aaa;
+        box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+        border-radius: .5em;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E"), linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+        background-repeat: no-repeat, repeat;
+        background-position: right .7em top 50%, 0 0;
+        background-size: .65em auto, 100%;
+    }
+/* /Pages/LoginPage.razor.rz.scp.css */
+.h3[b-6pkfmf0gio]{
+   text-align:center; 
+   right: ;
+}
+.shelterbillede[b-6pkfmf0gio]{
+    right: 40px; 
+    position: absolute; 
+}
+
+.h4[b-6pkfmf0gio]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute; 
+    bottom: 5%; 
+}
+.flexBoxDiv[b-6pkfmf0gio]{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.button-3[b-6pkfmf0gio] {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible)[b-6pkfmf0gio] {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-3:hover[b-6pkfmf0gio] {
+    background-color: #2c974b;
+}
+
+.button-3:focus[b-6pkfmf0gio] {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-3:disabled[b-6pkfmf0gio] {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-3:active[b-6pkfmf0gio] {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+.button-4[b-6pkfmf0gio] {
+    appearance: none;
+    background-color: red;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-4:focus:not(:focus-visible):not(.focus-visible)[b-6pkfmf0gio] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-4:hover[b-6pkfmf0gio] {
+        background-color: #cc0000;
+    }
+
+    .button-4:focus[b-6pkfmf0gio] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-4:disabled[b-6pkfmf0gio] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-4:active[b-6pkfmf0gio] {
+        background-color: darkred;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+/* /Pages/PrintAllInfo.razor.rz.scp.css */
+.InfoTable[b-xhzvg3xys0]{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+}
+.InfoTable:nth-child(even)[b-xhzvg3xys0]{
+    background-color: #f2f2f2;
+}
+.PrintAllInfoPageContent[b-xhzvg3xys0]{
+    text-align: center;
+}
+/* /Pages/RegisterPage.razor.rz.scp.css */
+ .flexBoxDiv[b-bwr9r4iqsf] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.button-3[b-bwr9r4iqsf] {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-3:focus:not(:focus-visible):not(.focus-visible)[b-bwr9r4iqsf] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-3:hover[b-bwr9r4iqsf] {
+        background-color: #2c974b;
+    }
+
+    .button-3:focus[b-bwr9r4iqsf] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-3:disabled[b-bwr9r4iqsf] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-3:active[b-bwr9r4iqsf] {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+
+
+/* /Pages/ShelterBookingForm.razor.rz.scp.css */
+.errorCode[b-s3y4f63g18] {
+    color: red;
+    font-size: 35px;
+}
+/* /Pages/ShelterBookingList.razor.rz.scp.css */
+.BookingInfoTable tr:nth-child(2n+1)[b-xq09iw9q6v] {
+    background-color: lightgrey;
+}
+
+.BookingInfoTable tr[b-xq09iw9q6v], .BookingInfoTable td[b-xq09iw9q6v] {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.BookingInfoTable[b-xq09iw9q6v] {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.button-4[b-xq09iw9q6v] {
+    appearance: none;
+    background-color: red;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-4:focus:not(:focus-visible):not(.focus-visible)[b-xq09iw9q6v] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-4:hover[b-xq09iw9q6v] {
+        background-color: #cc0000;
+    }
+
+    .button-4:focus[b-xq09iw9q6v] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-4:disabled[b-xq09iw9q6v] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-4:active[b-xq09iw9q6v] {
+        background-color: darkred;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+/* /Pages/ShelterBoxView.razor.rz.scp.css */
+.shelterInfo[b-2y65m7hm9c] {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.shelterInfo h3[b-2y65m7hm9c]{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.shelterInfo .coordinates[b-2y65m7hm9c]{
+text-align: center;
+text-decoration: underline;
+}
+.shelterInfo .googleMaps[b-2y65m7hm9c] {
+    display: block;
+    text-align: center;
+}
+
+.button-3[b-2y65m7hm9c] {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-3:focus:not(:focus-visible):not(.focus-visible)[b-2y65m7hm9c] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-3:hover[b-2y65m7hm9c] {
+        background-color: #2c974b;
+    }
+
+    .button-3:focus[b-2y65m7hm9c] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-3:disabled[b-2y65m7hm9c] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-3:active[b-2y65m7hm9c] {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+
+.buttonDiv[b-2y65m7hm9c]{
+    text-align: center;
+}
+/* /Pages/ShelterList.razor.rz.scp.css */
+
+.button-3[b-8w83246t9j] {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-3:focus:not(:focus-visible):not(.focus-visible)[b-8w83246t9j] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-3:hover[b-8w83246t9j] {
+        background-color: #2c974b;
+    }
+
+    .button-3:focus[b-8w83246t9j] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-3:disabled[b-8w83246t9j] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-3:active[b-8w83246t9j] {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+/* /Pages/ShelterListView.razor.rz.scp.css */
+.InfoTable[b-y8vqudrjix] {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.InfoTable tr:nth-child(2n+1)[b-y8vqudrjix]{
+    background-color: lightgrey;
+}
+.InfoTable tr[b-y8vqudrjix], .InfoTable td[b-y8vqudrjix] {
+    padding: 10px;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+#shelterCoordinates[b-y8vqudrjix]{
+    font-size: 12px;
+}
+
+
+.button-3[b-y8vqudrjix] {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-3:focus:not(:focus-visible):not(.focus-visible)[b-y8vqudrjix] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-3:hover[b-y8vqudrjix] {
+        background-color: #2c974b;
+    }
+
+    .button-3:focus[b-y8vqudrjix] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-3:disabled[b-y8vqudrjix] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-3:active[b-y8vqudrjix] {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+/* /Pages/UserList.razor.rz.scp.css */
+.InfoTable[b-879862yj4z] {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.InfoTable tr:nth-child(2n+1)[b-879862yj4z] {
+        background-color: lightgrey;
+}
+
+.InfoTable tr[b-879862yj4z], .InfoTable td[b-879862yj4z] {
+        padding: 10px;
+        vertical-align: middle;
+}
+
+
+
+.button-4[b-879862yj4z] {
+    appearance: none;
+    background-color: red;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-4:focus:not(:focus-visible):not(.focus-visible)[b-879862yj4z] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-4:hover[b-879862yj4z] {
+        background-color: #cc0000;
+    }
+
+    .button-4:focus[b-879862yj4z] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-4:disabled[b-879862yj4z] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-4:active[b-879862yj4z] {
+        background-color: darkred;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-ocnk4r8tjs] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-ocnk4r8tjs] {
+    flex: 1;
+}
+
+.sidebar[b-ocnk4r8tjs] {
+    background-image: linear-gradient(180deg, rgb(34,139,34) 0%, #0b853b 70%);
+}
+
+.top-row[b-ocnk4r8tjs] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-ocnk4r8tjs]  a, .top-row[b-ocnk4r8tjs]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-ocnk4r8tjs]  a:hover, .top-row[b-ocnk4r8tjs]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-ocnk4r8tjs]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-ocnk4r8tjs] {
+        display: none;
+    }
+
+    .top-row.auth[b-ocnk4r8tjs] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-ocnk4r8tjs]  a, .top-row[b-ocnk4r8tjs]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-ocnk4r8tjs] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-ocnk4r8tjs] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-ocnk4r8tjs] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-ocnk4r8tjs]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-ocnk4r8tjs], article[b-ocnk4r8tjs] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-kd1ih0s86n] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-kd1ih0s86n] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-kd1ih0s86n] {
+    font-size: 1.1rem;
+}
+
+.oi[b-kd1ih0s86n] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-kd1ih0s86n] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-kd1ih0s86n] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-kd1ih0s86n] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-kd1ih0s86n]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-kd1ih0s86n]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-kd1ih0s86n]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-kd1ih0s86n] {
+        display: none;
+    }
+
+    .collapse[b-kd1ih0s86n] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

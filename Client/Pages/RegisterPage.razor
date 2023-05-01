@@ -1,0 +1,27 @@
+﻿@page "/register";
+@inject HttpClient Http;
+@inject NavigationManager NavManager
+
+<div id="LoginDiv2" class="flexBoxDiv">
+<h3>Register User</h3><br />
+
+    <label for="username">Username</label>
+    <input type="username" name="username" placeholder="UserMani" @bind-value="Username" />
+    <br>
+    <label for="email">Email</label>
+    <input type="email " name="email" placeholder="Emil" @bind-value="Email"/>
+    <br>
+    <label for="name">Name</label>
+    <input type="name" name="name" placeholder="NamNam" @bind-value="Name" />
+    <br>
+    <label for="phone">Phone</label>
+    <input type="phone" name="phone" placeholder="Panda Po" @bind-value="Phone" />
+    <br>
+    <label for="phoneareacode">PhoneAreaCode</label>
+    <input type="phonearecode" name="phoneareacode"placeholder="MrT Pac" @bind-value="PhoneAreaCode" />
+    <br />
+    <button class="button-3" onclick="@(() => Register())">Register</button>
+</div>
+@code {
+
+}

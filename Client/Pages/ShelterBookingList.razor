@@ -1,0 +1,49 @@
+﻿@page "/shelterBookingList"
+@using System.Text.Json;
+@inject HttpClient Http;
+
+<PageTitle>Bookinglist</PageTitle>
+
+<h3>ShelterBookingList</h3>
+
+<table class="BookingInfoTable">
+    <tr>
+        <th>ID</th>
+        <th>Shelter</th>
+        <th>UserID</th>
+        <th>Username</th>
+        <th>Starttime</th>
+        <th>Endtime</th>
+        <th>Participants</th>
+        <th>Intention</th>
+        <th>Unbook</th>
+    </tr>
+
+@foreach (var shelterBooking in ShelterBookings)
+{
+    <tr>
+    
+        <td>@shelterBooking.BookingID</td>
+        <td>@shelterBooking.shelter.navn</td>
+        <td>@shelterBooking.User.id</td>
+        <td>@shelterBooking.user.username</td>
+        <td>@shelterBooking.Starttime</td>
+        <td>@shelterBooking.Endtime</td>
+        <td>@shelterBooking.Participants</td>
+        <td>@shelterBooking.Intention</td>
+            @if (shelterBooking.starttime > DateTime.Now)
+            {
+                <td><p class="button-4" @onclick="(() => DeleteShelterBooking(shelterBooking.bookingid))">X</p></td>
+            }else{
+                <td></td>
+            }
+        </tr>
+        Console.WriteLine(JsonSerializer.Serialize(shelterBooking.User));
+}
+
+</table>
+
+
+@code {
+
+}

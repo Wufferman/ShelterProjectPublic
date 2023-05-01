@@ -1,0 +1,5 @@
+C:\Users\JeffS\source\repos\ShelterProjectFolder\Shared\obj\Debug\net6.0\SharedProject.csproj.AssemblyReference.cache
+C:\Users\JeffS\source\repos\ShelterProjectFolder\Shared\obj\Debug\net6.0\SharedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeffS\source\repos\ShelterProjectFolder\Shared\obj\Debug\net6.0\SharedProject.AssemblyInfoInputs.cache
+C:\Users\JeffS\source\repos\ShelterProjectFolder\Shared\obj\Debug\net6.0\SharedProject.AssemblyInfo.cs
+C:\Users\JeffS\source\repos\ShelterProjectFolder\Shared\obj\Debug\net6.0\SharedProject.csproj.CoreCompileInputs.cache

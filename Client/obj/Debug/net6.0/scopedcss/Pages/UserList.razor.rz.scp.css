@@ -1,0 +1,66 @@
+.InfoTable[b-879862yj4z] {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.InfoTable tr:nth-child(2n+1)[b-879862yj4z] {
+        background-color: lightgrey;
+}
+
+.InfoTable tr[b-879862yj4z], .InfoTable td[b-879862yj4z] {
+        padding: 10px;
+        vertical-align: middle;
+}
+
+
+
+.button-4[b-879862yj4z] {
+    appearance: none;
+    background-color: red;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .button-4:focus:not(:focus-visible):not(.focus-visible)[b-879862yj4z] {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .button-4:hover[b-879862yj4z] {
+        background-color: #cc0000;
+    }
+
+    .button-4:focus[b-879862yj4z] {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .button-4:disabled[b-879862yj4z] {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .button-4:active[b-879862yj4z] {
+        background-color: darkred;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    }

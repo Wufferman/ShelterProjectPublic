@@ -1,0 +1,84 @@
+﻿@inject HttpClient Http;
+@using SharedProject.cs;
+
+
+<table class="InfoTable">
+    <tr>
+        <th>Navn</th>
+        <th>Beskrivelse</th>
+        <th>Kontakt Info</th>
+        <th>Handicap Venligt</th>
+        <th>Antal Pladser</th>
+        <th>Link</th>
+        <th>Koordinater</th>
+        <th></th>
+
+    </tr>
+    @foreach (Shelter shelter in Shelters)
+    {
+        <tr>
+            <td>@shelter.navn</td>
+            @if (@shelter.beskrivels == null || string.IsNullOrWhiteSpace(shelter.beskrivels))
+                {
+                <td title="@shelter.lang_beskr">
+                    @if (shelter.lang_beskr?.Length >= 81)
+                    {
+                        <span>@((MarkupString)@shelter.lang_beskr.Substring(0, 80))...</span>
+                    }
+                    else
+                    {
+                        @((MarkupString)@shelter.lang_beskr)
+                    }
+                </td>
+                }
+                else
+                {
+                
+                <td title="@shelter.lang_beskr">
+                    @if (@shelter.beskrivels?.Length >= 81)
+                    {
+                        <span>@((MarkupString)@shelter.beskrivels.Substring(0, 80))...</span>
+                    }
+                    else
+                    {
+                        @((MarkupString)@shelter.beskrivels)
+                    }
+                </td>
+                }
+
+
+            
+
+            
+            <td>@shelter.kontak_ved</td>
+            @if (shelter.handicap == "Handicapegnet")
+                {
+                <td title="@shelter.handicap">✅</td>
+            }
+            else if (shelter.handicap == "Ikke handicapegnet")
+            {
+                <td title="@shelter.handicap">❌</td>
+            }
+            else
+            {
+                <td title="Ukendt">❓</td>
+            }
+
+        <td>@shelter.antal_pl</td>
+            <td>
+                @if (IsValidUrl(shelter.link))
+                {
+                    <a href="@shelter.link" target="_blank">@shelter.link</a>
+                }
+            </td>
+
+            <td id="shelterCoordinates">@getCoords(shelter.coordinates)</td>
+            <td><a class="button-3" href="https://localhost:7188/shelterBookingForm/@shelter.objekt_id">Book</a></td>
+        </tr>
+    }
+
+</table>
+
+@code {
+
+}

@@ -1,0 +1,432 @@
+[
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 671, "cvr_navn": "Struer Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 840, "cvr_navn": "Rebild Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 201, "cvr_navn": "Allerød Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 390, "cvr_navn": "Vordingborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 773, "cvr_navn": "Morsø Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 320, "cvr_navn": "Faxe Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 760,
+      "cvr_navn": "Ringkøbing-Skjern Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 190, "cvr_navn": "Furesø Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 410, "cvr_navn": "Middelfart Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 492, "cvr_navn": "Ærø Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 173,
+      "cvr_navn": "Lyngby-Taarbæk Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 791, "cvr_navn": "Viborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 217, "cvr_navn": "Helsingør Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 665, "cvr_navn": "Lemvig Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 147,
+      "cvr_navn": "Frederiksberg Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 240, "cvr_navn": "Egedal Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 482, "cvr_navn": "Langeland Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 849, "cvr_navn": "Jammerbugt Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 607, "cvr_navn": "Fredericia Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 766, "cvr_navn": "Hedensted Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 440, "cvr_navn": "Kerteminde Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 253, "cvr_navn": "Greve Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 707, "cvr_navn": "Norddjurs Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 825, "cvr_navn": "Læsø Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 779, "cvr_navn": "Skive Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 187, "cvr_navn": "Vallensbæk Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 813,
+      "cvr_navn": "Frederikshavn Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 851, "cvr_navn": "Aalborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 706, "cvr_navn": "Syddjurs Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 223, "cvr_navn": "Hørsholm Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 657, "cvr_navn": "Herning Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 756, "cvr_navn": "Ikast-Brande Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 411, "cvr_navn": "Christiansø" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 336, "cvr_navn": "Stevns Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 159, "cvr_navn": "Gladsaxe Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 661, "cvr_navn": "Holstebro Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 710, "cvr_navn": "Favrskov Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 420, "cvr_navn": "Assens Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 210, "cvr_navn": "Fredensborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 157, "cvr_navn": "Gentofte Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 259, "cvr_navn": "Køge Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 615, "cvr_navn": "Horsens Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 306, "cvr_navn": "Odsherred Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 479, "cvr_navn": "Svendborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 151, "cvr_navn": "Ballerup Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 621, "cvr_navn": "Kolding Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 746, "cvr_navn": "Skanderborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 376, "cvr_navn": "Guldborgsund Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 999, "cvr_navn": "Nan" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 450, "cvr_navn": "Nyborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 163, "cvr_navn": "Herlev Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 480, "cvr_navn": "Nordfyns Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 573, "cvr_navn": "Varde Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 169,
+      "cvr_navn": "Høje-Taastrup Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 727, "cvr_navn": "Odder Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 265, "cvr_navn": "Roskilde Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 183, "cvr_navn": "Ishøj Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 510, "cvr_navn": "Haderslev Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 730, "cvr_navn": "Randers Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 810, "cvr_navn": "Brønderslev Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 563, "cvr_navn": "Fanø Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 269, "cvr_navn": "Solrød Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 630, "cvr_navn": "Vejle Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 741, "cvr_navn": "Samsø Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 999, "cvr_navn": "Miljøstyrelsen" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 580, "cvr_navn": "Aabenraa Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 575, "cvr_navn": "Vejen Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 360, "cvr_navn": "Lolland Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 400,
+      "cvr_navn": "Bornholms Regionskommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 326, "cvr_navn": "Kalundborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 751, "cvr_navn": "Aarhus Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 561, "cvr_navn": "Esbjerg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 820,
+      "cvr_navn": "Vesthimmerlands Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 340, "cvr_navn": "Sorø Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 101, "cvr_navn": "Københavns Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 175, "cvr_navn": "Rødovre Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 787, "cvr_navn": "Thisted Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 530, "cvr_navn": "Billund Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 155, "cvr_navn": "Dragør Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 153, "cvr_navn": "Brøndby Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 330, "cvr_navn": "Slagelse Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 461, "cvr_navn": "Odense Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 740, "cvr_navn": "Silkeborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 999, "cvr_navn": "Naturstyrelsen" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 846,
+      "cvr_navn": "Mariagerfjord Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 550, "cvr_navn": "Tønder Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 260, "cvr_navn": "Halsnæs Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 219, "cvr_navn": "Hillerød Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 250,
+      "cvr_navn": "Frederikssund Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 540, "cvr_navn": "Sønderborg Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 185, "cvr_navn": "Tårnby Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 165, "cvr_navn": "Albertslund Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 230, "cvr_navn": "Rudersdal Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 316, "cvr_navn": "Holbæk Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 270, "cvr_navn": "Gribskov Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 329, "cvr_navn": "Ringsted Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 370, "cvr_navn": "Næstved Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "kommunekode": 430,
+      "cvr_navn": "Faaborg-Midtfyn Kommune"
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 860, "cvr_navn": "Hjørring Kommune" }
+  },
+  {
+    "type": "Feature",
+    "properties": { "kommunekode": 350, "cvr_navn": "Lejre Kommune" }
+  }
+]

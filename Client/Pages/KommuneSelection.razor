@@ -1,0 +1,23 @@
+﻿@page "/kommuneSelection"
+@inject HttpClient Http;
+@inject NavigationManager NavManager
+@using SharedProject.cs;
+
+@*<h3>KommuneSelection</h3>*@
+
+<select class="select-css" @bind="@kommuneid">
+    @foreach (Kommune kommune in kommune)
+    {
+        <option value="@kommune.kommunekode">@kommune.cvr_navn</option>
+    }
+</select>
+<br />
+<button class="button-3" @onclick="submitSelection">Select Kommune</button>
+
+
+
+
+@code {
+
+    
+}

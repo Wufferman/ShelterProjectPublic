@@ -1,0 +1,47 @@
+﻿@page "/loginPage";
+@using Blazored.LocalStorage;
+@inject HttpClient Http;
+@inject ILocalStorageService LocalStorage
+@inject NavigationManager NavManager
+
+<div id="LoginDiv" class="flexBoxDiv">
+    @*<h3>LoginPage</h3>*@
+
+    <label>Email</label>
+    <input type="text" bind="Email" @bind-value="Email" style="width: 300px;" /><br />
+    <label>Phone</label>
+    <input type="int" placeholder="Phone number" @bind-value="Phone" style="width: 300px;" />
+    <br />
+<button  class="button-3" @onclick="(() => Login())">Log in</button>
+@if (IsLoggedIn) {
+    <br />
+    <button class="button-4" @onclick= "(() =>Logout())"> Log out</button>
+}else{
+    <br />
+        <a class="button-3" href="/register">Register</a>
+}
+
+
+
+
+
+
+<p>@Message</p>
+
+
+<img src="images/shelterbillederazor.png" id="shelterbillede" alt="shelterbillede"/>
+        <br>
+        <br>
+    <br>
+
+
+<h4>Denne Blazor applikation er fremarbejdet af Jeff, Isak, August og Rasmus</h4>
+
+</div>
+
+
+@code {
+  
+   
+        
+}
